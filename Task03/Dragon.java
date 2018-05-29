@@ -10,4 +10,7 @@ public class Dragon {
         } else sum = N * 3 + 3;
         return sum;
     }
+    public static int getEyes (int N){
+         return Dragon.getHeads(N) * 2;
+    }
 }
