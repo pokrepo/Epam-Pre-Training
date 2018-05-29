@@ -10,7 +10,8 @@ public class Task03 {
         }
         //T2
         int N = 356;
-        View.print("Amount of heads of "+N+"-years old Dragon is "+Dragon.getHeads(N)+"\n\n");
+        View.print("Amount of heads of "+N+"-years old Dragon is "+Dragon.getHeads(N)+"\n");
+        View.print("And amount of his eyes is "+Dragon.getEyes(N)+"\n\n");
         //T3
         char c = 'e';
         View.print(c+ " is Vowel? "+ Letter.isVowel1(c)+"\n");
