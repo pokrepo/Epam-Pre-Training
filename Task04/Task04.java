@@ -1,4 +1,4 @@
-import Stack.*;
+import pokrepo.*;
 
 public class Task04 {
 
@@ -17,7 +17,7 @@ public class Task04 {
         System.out.printf("All simple divisors of number %d are: \n\n", n);
         StackOfTasks.findDividers(n);
         //T2.5.1
-        int a = 4545;
+        int a = 1;
         int b = 20;
         System.out.printf("The greatest common divisor of %d and %d is %d\n\n", a, b, StackOfTasks.getGCD(a, b));
         //T2.5.2
